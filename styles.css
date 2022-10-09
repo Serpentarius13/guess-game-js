@@ -12,6 +12,7 @@ body {
     font-family: 'Press Start 2P', cursive;
     color: #fff;
     background-color: #222;
+    transition: all 2s;
 }
 
 /* helper class */
@@ -29,7 +30,7 @@ body {
 }
 
 .between {
-    margin-top: 1.2rem;
+    margin-top: 1.6rem;
 }
 
 .guess-paragraph {
@@ -37,12 +38,9 @@ body {
     text-align: center;
     padding: 2.4rem;
     border-bottom: 5px solid #fff;
-
-    position: relative;
-
 }
 
-.guess-box {
+.guess {
     background-color: #fff;
     color: #222;
     text-align: center;
@@ -52,26 +50,26 @@ body {
     padding: 2rem;
 
     position: absolute;
-    top: 125%;
+    top: 65%;
     left: 50%;
 
     transform: translate(-50%, -50%);
 }
 
-.box {
-    padding: 2rem 0 6rem;
+
+.guess-box {
+    padding: 2rem 0 8rem;
+    position: relative;
 }
 
-.inputting,
-.stats {
+.inputting {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 
+    padding: 1.4rem;
 
     gap: 1.4rem;
-
-    margin: 3.6rem;
 }
 
 .inputer {
@@ -91,5 +89,28 @@ body {
 }
 
 .stats {
-    justify-self: end;
+    display: grid;
+    row-gap: 3rem;
+    grid-template-rows: 4fr 1fr;
+    justify-self: center;
+    align-self: center;
+}
+
+.check {
+    width: 40%;
+    justify-self: center;
+    align-self: center;
+    border: 3px solid blueviolet;
+}
+
+.low-high {
+    display: flex;
+    align-items:;
+    justify-content: center;
+    width: 30rem;
+    transition: all 0.5s;
+}
+
+.score {
+    justify-self: center;
 }
