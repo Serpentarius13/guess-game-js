@@ -17,6 +17,10 @@ body {
 
 /* helper class */
 
+main {
+    width: 100%;
+}
+
 .btn {
     font-size: 1.4rem;
     padding: 1.6rem 1.6rem;
