@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    background-color: #222;
+}
+
+/* helper class */
+
+.btn {
+    font-size: 1.4rem;
+    padding: 1.6rem 1.6rem;
+    font-family: inherit;
+}
+
+.top {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.between {
+    margin-top: 1.2rem;
+}
+
+.guess-paragraph {
+    font-size: 3.2rem;
+    text-align: center;
+    padding: 2.4rem;
+    border-bottom: 5px solid #fff;
+
+    position: relative;
+
+}
+
+.guess-box {
+    background-color: #fff;
+    color: #222;
+    text-align: center;
+    font-size: 3rem;
+    width: 20%;
+    
+    padding: 2rem;
+
+    position: absolute;
+    top: 125%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    padding: 2rem 0 6rem;
+}
+
+.inputting,
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+    gap: 1.4rem;
+
+    margin: 3.6rem;
+}
+
+.inputer {
+    display: flex;
+    align-self: center;
+    padding: 1.4rem;
+    background-color: #333;
+    border: 3px solid #fff;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3.6rem;
+    column-gap: 0;
+}
+
+.stats {
+    justify-self: end;
+}
